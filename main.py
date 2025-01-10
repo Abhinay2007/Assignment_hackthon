@@ -82,7 +82,7 @@ st.subheader("Your personal AI assistant at your service")
 
 # Add an image or logo
 image = Image.open("abc.jpg")
-st.image(image, width=200)  # Set the image width to a smaller size
+st.image(image, width=200)  
 # st.image(image, use_column_width=True)
 
 # User input section
@@ -90,8 +90,7 @@ user_input = st.text_area("Enter your query:", height=100, placeholder="Type her
 
 # Button to submit the query
 if st.button("Submit"):
-    response = f"Agent's response to: {user_input}"  # Replace with your agent's response
-    
+    response = f"Agent's response to: {user_input}"  
     
     try:
         with st.spinner("Running Flow..."):
