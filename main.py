@@ -1,4 +1,4 @@
-# Note: Replace **<YOUR_APPLICATION_TOKEN>** with your actual Application token
+
 
 import requests
 import streamlit as st
